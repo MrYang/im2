@@ -1,0 +1,14 @@
+hash: 2cb21e7bc24d96972863bfb8e237a64654be9734759316ddfe124ecc19f27832
+updated: 2019-03-01T12:21:25.170760537+08:00
+imports:
+- name: github.com/gin-gonic/gin
+  version: b869fe1415e4b9eb52f247441830d502aece2d4d
+- name: github.com/go-redis/redis
+  version: d22fde8721cc915a55aeb6b00944a76a92bfeb6e
+- name: github.com/hashicorp/consul
+  version: 4833c5dee528559548b69ed4e54e27ce35f3fbe0
+- name: github.com/toolkits/container
+  version: ba7d73adeaca8dc16c676dedbbb48cc46d3eccb0
+- name: github.com/toolkits/file
+  version: a5b3c5147e07f934d9f9d00b901a20b2529f1a57
+testImports: []

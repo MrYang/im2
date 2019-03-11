@@ -1,0 +1,7 @@
+/bin
+.vagrant
+*~
+*.swp
+.vscode
+/.GOPATH
+/gopath
