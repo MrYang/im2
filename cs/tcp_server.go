@@ -2,13 +2,14 @@ package main
 
 import (
 	"errors"
-	"time"
-	"sync"
-	"net"
-	"github.com/hashicorp/consul/api"
-	"zz.com/im2/common"
-	"github.com/lunny/log"
 	"fmt"
+	"im2/common"
+	"net"
+	"sync"
+	"time"
+
+	"github.com/hashicorp/consul/api"
+	"github.com/lunny/log"
 	"github.com/spf13/cast"
 )
 
@@ -366,7 +367,6 @@ func (server *ClientServer) addConn(conn net.Conn) (*common.Conn, error) {
 	if groups, ok := msg.Head["groups"]; ok {
 		log.Info("groups:", groups)
 	}
-
 
 	uid64 := cast.ToUint64(uid)
 

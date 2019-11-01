@@ -1,14 +1,15 @@
 package main
 
 import (
-	"time"
-	"sync"
-	"net"
-	"github.com/hashicorp/consul/api"
-	"zz.com/im2/common"
-	"github.com/lunny/log"
-	"strings"
 	"fmt"
+	"im2/common"
+	"net"
+	"strings"
+	"sync"
+	"time"
+
+	"github.com/hashicorp/consul/api"
+	"github.com/lunny/log"
 	"github.com/spf13/cast"
 )
 

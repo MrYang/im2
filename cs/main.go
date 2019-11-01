@@ -1,15 +1,14 @@
 package main
 
 import (
-	"os/signal"
-	"os"
-	"log"
-	"syscall"
-	"fmt"
 	"flag"
-	"zz.com/im2/common"
+	"fmt"
+	"im2/common"
+	"log"
+	"os"
+	"os/signal"
+	"syscall"
 )
-
 
 var serverPort, clientPort, httpPort, serverId int
 
@@ -35,7 +34,6 @@ func main() {
 
 	singleBackendServer = backendServer
 	singleClientServer = clientServer
-
 
 	serviceId := fmt.Sprintf("cs_%d", serverId)
 	backendServer.regConsul(serviceId, serverPort)

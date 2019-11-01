@@ -1,14 +1,15 @@
 package common
 
 import (
-	"net"
-	"fmt"
-	"github.com/lunny/log"
 	"encoding/json"
+	"fmt"
+	"net"
+
+	"github.com/lunny/log"
 )
 
 const (
-	_       uint32 = iota
+	_ uint32 = iota
 	Start
 	Working
 	Closed

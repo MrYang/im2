@@ -1,11 +1,12 @@
 package main
 
 import (
-	"github.com/spf13/cast"
-	"net/http"
-	"github.com/lunny/log"
 	"fmt"
+	"net/http"
+
 	"github.com/gin-gonic/gin"
+	"github.com/lunny/log"
+	"github.com/spf13/cast"
 )
 
 type httpServer struct {

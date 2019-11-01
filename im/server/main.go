@@ -1,13 +1,14 @@
 package main
 
 import (
+	"flag"
+	"im2/common"
+	"os"
 	"os/signal"
 	"syscall"
-	"os"
-	"github.com/lunny/log"
-	"flag"
-	"zz.com/im2/common"
 	"time"
+
+	"github.com/lunny/log"
 )
 
 var serverId int

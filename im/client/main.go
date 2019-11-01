@@ -1,18 +1,18 @@
 package main
 
 import (
-	"os/signal"
-	"syscall"
-	"os"
-	"github.com/lunny/log"
 	"bufio"
-	"zz.com/im2/common"
 	"flag"
 	"fmt"
+	"im2/common"
+	"os"
+	"os/signal"
+	"syscall"
+
+	"github.com/lunny/log"
 )
 
 var fromUid, toUid uint64
-
 
 func main() {
 

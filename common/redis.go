@@ -1,8 +1,9 @@
 package common
 
 import (
-	"github.com/go-redis/redis"
 	"strconv"
+
+	"github.com/go-redis/redis"
 	"github.com/spf13/cast"
 )
 
